@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plane, AlertCircle, Smartphone, RefreshCw, Share2 } from 'lucide-react';
+import { Plane, AlertCircle, Smartphone, RefreshCw, Share2, LogOut } from 'lucide-react';
 
 interface HeaderProps {
   missedCount: number;
@@ -7,6 +7,7 @@ interface HeaderProps {
   onOpenGuide: () => void;
   onRestart: () => void;
   onShare: () => void;
+  onLogout?: () => void;
   isInExam: boolean;
 }
 
@@ -16,6 +17,7 @@ export const Header: React.FC<HeaderProps> = ({
   onOpenGuide,
   onRestart,
   onShare,
+  onLogout,
   isInExam,
 }) => {
   return (
@@ -108,6 +110,19 @@ export const Header: React.FC<HeaderProps> = ({
             >
               <RefreshCw className="w-3.5 h-3.5" />
               <span className="hidden xs:inline">Reset</span>
+            </button>
+          )}
+
+          {/* Logout button */}
+          {onLogout && (
+            <button
+              onClick={onLogout}
+              className="min-h-[38px] px-2.5 py-1 text-xs font-medium rounded-lg bg-slate-800/60 text-slate-400 border border-slate-700/50 hover:text-rose-400 hover:border-rose-500/30 hover:bg-rose-950/20 flex items-center gap-1.5 transition-colors font-arabic"
+              title="تسجيل الخروج"
+              aria-label="تسجيل الخروج"
+            >
+              <LogOut className="w-3.5 h-3.5" />
+              <span className="hidden sm:inline">خروج</span>
             </button>
           )}
         </div>

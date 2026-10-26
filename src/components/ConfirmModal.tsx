@@ -26,7 +26,7 @@ export const ConfirmModal: React.FC<ConfirmModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/75 backdrop-blur-sm animate-in fade-in duration-150">
-      <div className="w-full max-w-sm rounded-3xl bg-slate-900 border border-slate-800 p-5 sm:p-6 shadow-2xl space-y-4">
+      <div dir="rtl" className="w-full max-w-sm rounded-3xl bg-slate-900 border border-slate-800 p-5 sm:p-6 shadow-2xl space-y-4 font-arabic text-right">
         <div className="flex items-start gap-3">
           <div className={`w-9 h-9 rounded-xl flex items-center justify-center shrink-0 ${
             isDestructive ? 'bg-rose-500/10 text-rose-400 border border-rose-500/20' : 'bg-teal-500/10 text-teal-400 border border-teal-500/20'

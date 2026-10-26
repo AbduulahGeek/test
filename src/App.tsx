@@ -3,6 +3,7 @@ import { Header } from './components/Header';
 import { ExamSetup } from './components/ExamSetup';
 import { ExamRunner } from './components/ExamRunner';
 import { ExamResults } from './components/ExamResults';
+import { PasswordGate } from './components/PasswordGate';
 import { IPhoneGuideModal } from './components/IPhoneGuideModal';
 import { NotificationToast, ToastMessage } from './components/NotificationToast';
 import { ConfirmModal } from './components/ConfirmModal';
@@ -17,6 +18,14 @@ import {
 type AppView = 'setup' | 'exam' | 'results';
 
 export default function App() {
+  const [isAuthenticated, setIsAuthenticated] = useState<boolean>(() => {
+    try {
+      return sessionStorage.getItem('afo_auth_session') === 'true';
+    } catch {
+      return false;
+    }
+  });
+
   const [view, setView] = useState<AppView>('setup');
   const [config, setConfig] = useState<ExamConfig>({
     count: 30,
@@ -38,6 +47,7 @@ export default function App() {
     message: string;
     isDestructive?: boolean;
     confirmLabel?: string;
+    cancelLabel?: string;
     onConfirm: () => void;
   }>({
     isOpen: false,
@@ -218,6 +228,42 @@ export default function App() {
     }
   };
 
+  const handleLogout = () => {
+    setConfirmState({
+      isOpen: true,
+      title: 'تسجيل الخروج',
+      message: 'هل أنت متأكد من رغبتك في تسجيل الخروج والعودة إلى شاشة كلمة المرور؟',
+      confirmLabel: 'تسجيل الخروج',
+      cancelLabel: 'إلغاء',
+      isDestructive: true,
+      onConfirm: () => {
+        try {
+          sessionStorage.removeItem('afo_auth_session');
+        } catch (err) {
+          console.warn('Failed to clear session', err);
+        }
+        setIsAuthenticated(false);
+        setView('setup');
+        setConfirmState(prev => ({ ...prev, isOpen: false }));
+        showToast('info', 'تم تسجيل الخروج بنجاح', 'يرجى إدخال كلمة المرور للمتابعة.');
+      },
+    });
+  };
+
+  if (!isAuthenticated) {
+    return (
+      <div className="min-h-full flex flex-col bg-[#040711] text-slate-100 antialiased font-sans">
+        <PasswordGate
+          onAuthenticate={() => {
+            setIsAuthenticated(true);
+            showToast('success', 'تم الدخول بنجاح', 'مرحباً بك في بنك الأسئلة.');
+          }}
+        />
+        <NotificationToast toasts={toasts} onDismiss={dismissToast} />
+      </div>
+    );
+  }
+
   return (
     <div className="min-h-full flex flex-col bg-[#040711] text-slate-100 antialiased font-sans selection:bg-teal-500/25 selection:text-teal-200">
       {/* Top Bar Header */}
@@ -227,6 +273,7 @@ export default function App() {
         onOpenGuide={() => setIsGuideOpen(true)}
         onRestart={handleResetExam}
         onShare={handleShare}
+        onLogout={handleLogout}
         isInExam={view !== 'setup'}
       />
 
@@ -296,6 +343,7 @@ export default function App() {
         message={confirmState.message}
         isDestructive={confirmState.isDestructive}
         confirmLabel={confirmState.confirmLabel}
+        cancelLabel={confirmState.cancelLabel}
         onConfirm={confirmState.onConfirm}
         onCancel={() => setConfirmState(prev => ({ ...prev, isOpen: false }))}
       />
