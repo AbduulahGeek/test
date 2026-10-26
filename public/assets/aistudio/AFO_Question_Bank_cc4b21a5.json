@@ -1,0 +1,987 @@
+[
+  {
+    "q": "What is the recommended basis for gas monitor calibration?",
+    "a": "As per the manufacturer's recommendation",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "What does a single beep every 30 seconds on an MX4 indicate?",
+    "a": "Low battery",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "What does a double/trouble beep every 30 seconds on an MX4 indicate?",
+    "a": "Sensor failure",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "What is the maximum pump tube length?",
+    "a": "100 feet",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "How do you obtain the actual reading when using the pump tube?",
+    "a": "For each 1 foot: 2 seconds + 2 minutes",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "How long must ventilation be OFF before conducting the gas test?",
+    "a": "15 minutes",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "Which gas has two alarm points in the gas monitor?",
+    "a": "O2 (high and low alarm)",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "How do you perform zeroing on the MX-6?",
+    "a": "Press On/Off → Sensor → Zeroing → OK",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "How do you view Peak on the MX-6?",
+    "a": "Press On/Off → Sensor → Peak → OK",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "How many alarms does the MX-4 have?",
+    "a": "3 (vibration, visible light, audible sound)",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "What is included in the daily inspection of the gas tester?",
+    "a": "Visual inspection, pump leak, function test, zeroing, clearing peaks",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "Where is local calibration of the gas test monitor performed?",
+    "a": "Deck station",
+    "cat": "Gas Test"
+  },
+  {
+    "q": "What action is not allowed for a refueler around aircraft?",
+    "a": "Reversing",
+    "cat": "Apron"
+  },
+  {
+    "q": "What does a steady red apron light mean?",
+    "a": "Stop",
+    "cat": "Apron"
+  },
+  {
+    "q": "What does a flashing red apron light mean?",
+    "a": "Evacuate the area immediately",
+    "cat": "Apron"
+  },
+  {
+    "q": "What does a steady green apron light mean?",
+    "a": "Cross safely",
+    "cat": "Apron"
+  },
+  {
+    "q": "What does a flashing white apron light mean?",
+    "a": "Return to the start point",
+    "cat": "Apron"
+  },
+  {
+    "q": "When are you allowed to park around aircraft?",
+    "a": "Aircraft engine and lights OFF, plus representative approval",
+    "cat": "Apron"
+  },
+  {
+    "q": "What must you prepare before parking around an aircraft?",
+    "a": "A clear exit",
+    "cat": "Apron"
+  },
+  {
+    "q": "Where must the mobile dispenser be parked during hot refueling?",
+    "a": "Beside the aircraft",
+    "cat": "Apron"
+  },
+  {
+    "q": "What should be performed at the beginning of aircraft refueling?",
+    "a": "Hydro-kit test (water detector test)",
+    "cat": "Apron"
+  },
+  {
+    "q": "What should be checked after starting to refill/load the refueler?",
+    "a": "Bottom-loading shut-off valve (overfill valve)",
+    "cat": "Apron"
+  },
+  {
+    "q": "What defines a major spill in the source?",
+    "a": "More than 5 sq. m² / more than 10,000 BBL",
+    "cat": "Apron"
+  },
+  {
+    "q": "What volume range defines a medium spill in the source?",
+    "a": "Between 100 and 10,000 BBL",
+    "cat": "Apron"
+  },
+  {
+    "q": "What defines a minor spill in the source?",
+    "a": "Between 3–5 sq. m² / less than 100 BBL",
+    "cat": "Apron"
+  },
+  {
+    "q": "What is the speed limit on the main road?",
+    "a": "25 km/h",
+    "cat": "Apron"
+  },
+  {
+    "q": "What is the speed limit on the apron?",
+    "a": "15 km/h",
+    "cat": "Apron"
+  },
+  {
+    "q": "What is the speed limit around/behind aircraft?",
+    "a": "5 km/h",
+    "cat": "Apron"
+  },
+  {
+    "q": "What is the speed limit at the passenger terminal?",
+    "a": "5 km/h",
+    "cat": "Apron"
+  },
+  {
+    "q": "Which hose is connected first?",
+    "a": "Aircraft hose, then the intake hose",
+    "cat": "Apron"
+  },
+  {
+    "q": "Which hose is disconnected first?",
+    "a": "Intake hose, then aircraft hose",
+    "cat": "Apron"
+  },
+  {
+    "q": "What must be connected before refueling begins?",
+    "a": "Ground/bonding to earth",
+    "cat": "Apron"
+  },
+  {
+    "q": "Who issues the apron driving authority license?",
+    "a": "Airfield Authority",
+    "cat": "Apron"
+  },
+  {
+    "q": "What is the normal duration of SCBA?",
+    "a": "30 minutes",
+    "cat": "SCBA"
+  },
+  {
+    "q": "What is the full pressure inside SCBA?",
+    "a": "2216 PSI",
+    "cat": "SCBA"
+  },
+  {
+    "q": "When does SCBA give an alarm/vibration in terms of remaining time?",
+    "a": "4–6 minutes",
+    "cat": "SCBA"
+  },
+  {
+    "q": "At what remaining pressure does SCBA give an alarm/vibration?",
+    "a": "500 PSI (25%)",
+    "cat": "SCBA"
+  },
+  {
+    "q": "How often is the SCBA cylinder hydro-tested?",
+    "a": "Every 5 years",
+    "cat": "SCBA"
+  },
+  {
+    "q": "How often does Operations perform visual SCBA inspection?",
+    "a": "Weekly",
+    "cat": "SCBA"
+  },
+  {
+    "q": "How often is the SCBA record inspection performed?",
+    "a": "Monthly",
+    "cat": "SCBA"
+  },
+  {
+    "q": "How often does the Fire Department inspect SCBA?",
+    "a": "Yearly",
+    "cat": "SCBA"
+  },
+  {
+    "q": "What must be checked before using SCBA?",
+    "a": "Pressure, inspection date, mask cleanliness, hose leakage",
+    "cat": "SCBA"
+  },
+  {
+    "q": "How should the SCBA pressure hose be tightened?",
+    "a": "Hand-tightened",
+    "cat": "SCBA"
+  },
+  {
+    "q": "What type of gas is used for SCBA?",
+    "a": "Fresh air",
+    "cat": "SCBA"
+  },
+  {
+    "q": "What is the color of the SCBA bypass?",
+    "a": "Red",
+    "cat": "SCBA"
+  },
+  {
+    "q": "What is SABA used for?",
+    "a": "Long work activities",
+    "cat": "SABA"
+  },
+  {
+    "q": "What is the maximum SABA hose length?",
+    "a": "300 feet",
+    "cat": "SABA"
+  },
+  {
+    "q": "Who has the authority to stop unsafe work?",
+    "a": "Anyone",
+    "cat": "Work Permit"
+  },
+  {
+    "q": "What is primary isolation?",
+    "a": "One valve closed / two valves closed and bleed (drain)",
+    "cat": "Work Permit"
+  },
+  {
+    "q": "What is positive isolation?",
+    "a": "Blind / disconnect",
+    "cat": "Work Permit"
+  },
+  {
+    "q": "How does the standby person communicate with the entrance?",
+    "a": "Lifeline / rescue rope",
+    "cat": "Work Permit"
+  },
+  {
+    "q": "At what excavation depth is it considered a confined space?",
+    "a": "1.20 m",
+    "cat": "Work Permit"
+  },
+  {
+    "q": "How long should work permits be retained?",
+    "a": "90 days",
+    "cat": "Work Permit"
+  },
+  {
+    "q": "How often must a local audit of work permits be conducted?",
+    "a": "Weekly",
+    "cat": "Work Permit"
+  },
+  {
+    "q": "For how long can a work permit be extended?",
+    "a": "One shift / 8 hours",
+    "cat": "Work Permit"
+  },
+  {
+    "q": "What should be used when work requires many locks?",
+    "a": "Multi-locks / multi-box",
+    "cat": "Work Permit"
+  },
+  {
+    "q": "What should be recorded if a permit is cancelled for an emergency?",
+    "a": "Time and reason for cancellation; issue a new permit after the issue is cleared",
+    "cat": "Work Permit"
+  },
+  {
+    "q": "What is the color of JP-8?",
+    "a": "Colorless / water bright",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the freezing point of JP-8?",
+    "a": "−47°C",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the settling time for a JP-8 tank?",
+    "a": "3 hours",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the JP-8 density range?",
+    "a": "775–840 kg/m³",
+    "cat": "Quality"
+  },
+  {
+    "q": "What batch density variation is allowed?",
+    "a": "±3 kg/m³",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the JP-8 conductivity range?",
+    "a": "150–600 pS/m",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the Jet A-1 conductivity range?",
+    "a": "50–600 pS/m",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the icing-inhibitor percentage?",
+    "a": "0.07–0.10%",
+    "cat": "Quality"
+  },
+  {
+    "q": "Which tests are listed under the abbreviated test?",
+    "a": "C/B, density, temperature, conductivity, anti-icing",
+    "cat": "Quality"
+  },
+  {
+    "q": "Which test is listed under the key test?",
+    "a": "Distillation",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the flash point of JP-8?",
+    "a": "38°C",
+    "cat": "Quality"
+  },
+  {
+    "q": "How long does the Hydro Kit test take?",
+    "a": "2 minutes",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the minimum Hydro Kit water reading?",
+    "a": "30 PPM",
+    "cat": "Quality"
+  },
+  {
+    "q": "What reading is indicated when the water detector changes from yellow to pale green?",
+    "a": "5 PPM",
+    "cat": "Quality"
+  },
+  {
+    "q": "What reading is indicated when the water detector changes from yellow to green/blue?",
+    "a": "30 PPM",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the water detector used to assure?",
+    "a": "That fuel is water-free",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often is microbial growth testing conducted for aviation tanks?",
+    "a": "Annually",
+    "cat": "Quality"
+  },
+  {
+    "q": "Where is microbe/bacteria found in fuel tanks?",
+    "a": "At the interface between fuel and water",
+    "cat": "Quality"
+  },
+  {
+    "q": "When is a soak test used for aviation tanks?",
+    "a": "After T&I",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is a Millipore test used for?",
+    "a": "FWS filters",
+    "cat": "Quality"
+  },
+  {
+    "q": "Where is the colorimetric Millipore test conducted?",
+    "a": "In the plant",
+    "cat": "Quality"
+  },
+  {
+    "q": "What standard and membrane are used for the colorimetric Millipore test?",
+    "a": "Color standard; single membrane",
+    "cat": "Quality"
+  },
+  {
+    "q": "Where is the gravimetric Millipore test conducted?",
+    "a": "In the laboratory",
+    "cat": "Quality"
+  },
+  {
+    "q": "What standard and membrane are used for the gravimetric Millipore test?",
+    "a": "Weight standard; double membrane",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often are mobile filters tested by Millipore?",
+    "a": "Monthly",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often are fixed filters tested by Millipore?",
+    "a": "Quarterly",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often are loading/offloading filters tested by Millipore?",
+    "a": "Monthly",
+    "cat": "Quality"
+  },
+  {
+    "q": "What fuel quantity is required for a Millipore test, and where is it collected?",
+    "a": "5 liters, downstream of the filter",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often is the floating suction test performed?",
+    "a": "Monthly",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often are FWS filter elements inspected?",
+    "a": "Annually",
+    "cat": "Quality"
+  },
+  {
+    "q": "When should an FWS filter element be changed according to operating time?",
+    "a": "After 3 years of operation",
+    "cat": "Quality"
+  },
+  {
+    "q": "At what differential pressure should an FWS filter element be changed?",
+    "a": "15 PSI",
+    "cat": "Quality"
+  },
+  {
+    "q": "What DP drop is listed as a filter-element change condition?",
+    "a": "More than 5",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often is DP recorded until it reaches 12 psi?",
+    "a": "Weekly",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often is DP recorded until it reaches 15 psi?",
+    "a": "Daily",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often is hydrant pit flushing performed?",
+    "a": "Monthly",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often is low-point flushing performed?",
+    "a": "Weekly",
+    "cat": "Quality"
+  },
+  {
+    "q": "How is the icing-inhibitor refractometer calibrated?",
+    "a": "Adjust the 0 reading using water",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the temperature at which vapors will ignite called?",
+    "a": "Flash point",
+    "cat": "Quality"
+  },
+  {
+    "q": "How often must all strainers be inspected?",
+    "a": "Monthly",
+    "cat": "Quality"
+  },
+  {
+    "q": "What sample quantity is required for a basic/full test?",
+    "a": "2 gallons",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the minimum sample quantity for an abbreviated/key test?",
+    "a": "At least 1 liter",
+    "cat": "Quality"
+  },
+  {
+    "q": "Which paste is used to determine product level in a tank?",
+    "a": "Color cut paste",
+    "cat": "Quality"
+  },
+  {
+    "q": "Which paste is used to determine water level in a tank?",
+    "a": "Water cut paste",
+    "cat": "Quality"
+  },
+  {
+    "q": "When should the filter sump be drained?",
+    "a": "Daily",
+    "cat": "Quality"
+  },
+  {
+    "q": "What type of test is conducted for hauler trucks before emptying/offloading?",
+    "a": "Abbreviated test",
+    "cat": "Quality"
+  },
+  {
+    "q": "What is the form number for an abbreviated test?",
+    "a": "AFO 100",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for differential pressure?",
+    "a": "AFO 101",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for drain forms?",
+    "a": "AFO 102",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for Millipore test?",
+    "a": "AFO 103",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for Airlines Representative Acknowledgment?",
+    "a": "AFO 104",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for Microbial Growth (Fuelstat)?",
+    "a": "AFO 105",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for mobile equipment quality?",
+    "a": "AFO 106",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for Jet Fuel Additivities?",
+    "a": "AFO 107",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for defueling quality?",
+    "a": "AFO 108",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for product settling?",
+    "a": "AFO 700",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for tank status?",
+    "a": "AFO 702",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for floating suction?",
+    "a": "AFO 720",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for sales tickets?",
+    "a": "AFO-2-420",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for meter sheet?",
+    "a": "AFO-2-100",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for manual gauge?",
+    "a": "AFO-2-701",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for refueling checklist?",
+    "a": "AFO-2-900",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for a broken hauler seal?",
+    "a": "9505",
+    "cat": "Forms"
+  },
+  {
+    "q": "What is the form number for a broken local seal?",
+    "a": "AFO 800",
+    "cat": "Forms"
+  },
+  {
+    "q": "How often is a hydrometer calibrated?",
+    "a": "Yearly",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often is conductivity calibrated?",
+    "a": "Yearly",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often is the thermometer calibrated?",
+    "a": "Yearly",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often is digital density calibrated?",
+    "a": "Yearly",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often is distillation calibrated?",
+    "a": "Every 6 months",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often is flash point calibrated?",
+    "a": "Every 6 months",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often is the flow meter calibrated?",
+    "a": "Every 6 months",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often is the loading/unloading meter calibrated?",
+    "a": "Every 4 months",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often is a meter calibrated after exceeding 1 million liters?",
+    "a": "Every 4 months",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often is a repaired or new meter calibrated during the first two months?",
+    "a": "Monthly for 2 months",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often are hoses hydro-tested?",
+    "a": "Every 6 months",
+    "cat": "Calibration"
+  },
+  {
+    "q": "How often does Operations inspect fire extinguishers?",
+    "a": "Monthly",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often does the Fire Department inspect fire extinguishers?",
+    "a": "Yearly",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often does Operations inspect fire hydrants and fire monitors?",
+    "a": "Monthly",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often does the Fire Department inspect fire hydrants and fire monitors?",
+    "a": "Yearly",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often does Operations inspect the fire detection and alarm system?",
+    "a": "Monthly",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often does the Fire Department inspect the fire detection and alarm system?",
+    "a": "Yearly",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often does Operations inspect the fire pump?",
+    "a": "Weekly",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often does the Fire Department inspect the fire pump?",
+    "a": "Yearly",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often is a water fire extinguisher hydro-tested?",
+    "a": "Every 5 years",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often is a CO2 fire extinguisher hydro-tested?",
+    "a": "Every 5 years",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often is a dry chemical fire extinguisher hydro-tested?",
+    "a": "Every 12 years",
+    "cat": "Fire"
+  },
+  {
+    "q": "How often is a wheel fire extinguisher hydro-tested?",
+    "a": "Every 12 years (nitrogen cylinder: every 5 years)",
+    "cat": "Fire"
+  },
+  {
+    "q": "Why is foam effective for fighting fuel fires?",
+    "a": "It isolates the air from the fuel",
+    "cat": "Fire"
+  },
+  {
+    "q": "What is the function of a fire monitor?",
+    "a": "To cool down equipment near a fire",
+    "cat": "Fire"
+  },
+  {
+    "q": "What is the pressure of a water fire extinguisher?",
+    "a": "More than 90 psi",
+    "cat": "Fire"
+  },
+  {
+    "q": "What is the nitrogen pressure for a wheel fire extinguisher?",
+    "a": "At least 1600 psi",
+    "cat": "Fire"
+  },
+  {
+    "q": "What type of detector is located in the control room?",
+    "a": "Smoke detector",
+    "cat": "Fire"
+  },
+  {
+    "q": "When must a fire extinguisher not be used?",
+    "a": "Broken seal, cylinder damage, or expired hydro-test",
+    "cat": "Fire"
+  },
+  {
+    "q": "How many fire extinguishers should refuelers be equipped with, and what type?",
+    "a": "2 dry powder BC/ABC fire extinguishers",
+    "cat": "Fire"
+  },
+  {
+    "q": "What type of fire system is used in modules?",
+    "a": "FM-200",
+    "cat": "Fire"
+  },
+  {
+    "q": "What type of gas is used in a wheel fire extinguisher?",
+    "a": "Nitrogen",
+    "cat": "Fire"
+  },
+  {
+    "q": "What should you ask the representative before refueling?",
+    "a": "Product type and quantity",
+    "cat": "General"
+  },
+  {
+    "q": "Which refueler capacity is listed for a Boeing 737?",
+    "a": "20,000 liters",
+    "cat": "General"
+  },
+  {
+    "q": "Which refueler capacity is listed for a Boeing 747?",
+    "a": "85,000 liters",
+    "cat": "General"
+  },
+  {
+    "q": "Which refueler capacity is listed for a C-130?",
+    "a": "35,000 liters",
+    "cat": "General"
+  },
+  {
+    "q": "How quickly must the deadman stop fuel delivery?",
+    "a": "3–5 seconds",
+    "cat": "General"
+  },
+  {
+    "q": "How quickly should the deadman give full flow rate?",
+    "a": "5–10 seconds",
+    "cat": "General"
+  },
+  {
+    "q": "What is the first action if you observe a fuel leak during refueling?",
+    "a": "Release the deadman",
+    "cat": "General"
+  },
+  {
+    "q": "What is the best way to climb a ladder?",
+    "a": "Maintain 3 points of contact",
+    "cat": "General"
+  },
+  {
+    "q": "How can the emergency commander be recognized?",
+    "a": "Orange vest",
+    "cat": "General"
+  },
+  {
+    "q": "How often must the deadman be inspected?",
+    "a": "Weekly",
+    "cat": "General"
+  },
+  {
+    "q": "What is used to check the refueler capacity level?",
+    "a": "Dipstick",
+    "cat": "General"
+  },
+  {
+    "q": "What is used to check the tank capacity level?",
+    "a": "Varac / radar gauge",
+    "cat": "General"
+  },
+  {
+    "q": "What is the meeting agenda?",
+    "a": "Topics or activities that need to be covered during the meeting",
+    "cat": "General"
+  },
+  {
+    "q": "How often should SMS be updated or modified if there is an update?",
+    "a": "Yearly if there is any update",
+    "cat": "General"
+  },
+  {
+    "q": "How often is the communication and safety meeting conducted?",
+    "a": "Weekly",
+    "cat": "General"
+  },
+  {
+    "q": "How many elements are in the SMS program?",
+    "a": "11 elements",
+    "cat": "General"
+  },
+  {
+    "q": "Who approves the ERP?",
+    "a": "The department head",
+    "cat": "General"
+  },
+  {
+    "q": "Who reviews scaffolding taller than 12 meters?",
+    "a": "Plant proponent and area Loss Prevention division",
+    "cat": "General"
+  },
+  {
+    "q": "Who is allowed to take tank level by dipstick gauge during receiving?",
+    "a": "No one",
+    "cat": "General"
+  },
+  {
+    "q": "How long must the fire watch remain after welding is completed?",
+    "a": "30 minutes",
+    "cat": "General"
+  },
+  {
+    "q": "Where is an MMT created from?",
+    "a": "PRC",
+    "cat": "General"
+  },
+  {
+    "q": "Where is the plant inventory created from?",
+    "a": "PRO",
+    "cat": "General"
+  },
+  {
+    "q": "Where are safety suggestions submitted?",
+    "a": "SMS platform",
+    "cat": "General"
+  },
+  {
+    "q": "Where is a Near Miss submitted?",
+    "a": "EH&S",
+    "cat": "General"
+  },
+  {
+    "q": "What gas is inside a dry fire extinguisher?",
+    "a": "Nitrogen",
+    "cat": "General"
+  },
+  {
+    "q": "What should be done if the deadman fails during refueling?",
+    "a": "Stop operations and replace the refueller",
+    "cat": "General"
+  },
+  {
+    "q": "What is the purpose of SWD?",
+    "a": "Indicate the presence of free water",
+    "cat": "General"
+  },
+  {
+    "q": "What is needed to calibrate a gas tester?",
+    "a": "Gas cylinder, 2 feet tubing, and a valve with 0.5 LPM flow rate",
+    "cat": "General"
+  },
+  {
+    "q": "What information must be filled in on an isolation tag?",
+    "a": "Location, equipment, reasons, name, contact number",
+    "cat": "General"
+  },
+  {
+    "q": "What is the valve at the end of the fueling hose called?",
+    "a": "Hose End Pressure Control Valve (HEPCV)",
+    "cat": "General"
+  },
+  {
+    "q": "What is the function of the deadman?",
+    "a": "To open and close the flow control valve",
+    "cat": "General"
+  },
+  {
+    "q": "Why is the hydrant pit flushed?",
+    "a": "To eliminate fire risks and reduce maintenance tasks",
+    "cat": "General"
+  },
+  {
+    "q": "How often is an unused hydrant pit flushed?",
+    "a": "Quarterly",
+    "cat": "General"
+  },
+  {
+    "q": "What is the required position for the refueller static stripe?",
+    "a": "Connected to ground to discharge electricity",
+    "cat": "General"
+  },
+  {
+    "q": "What product is used for commercial aircraft?",
+    "a": "Jet A-1",
+    "cat": "General"
+  },
+  {
+    "q": "What product is used for military aircraft?",
+    "a": "JP-8",
+    "cat": "General"
+  },
+  {
+    "q": "What should be used to fight a fuel fire?",
+    "a": "Dry powder / dry chemical",
+    "cat": "General"
+  },
+  {
+    "q": "Where should you stand before opening the refueller hatch?",
+    "a": "Downwind",
+    "cat": "General"
+  },
+  {
+    "q": "What does SWD stand for?",
+    "a": "Shell Water Detector",
+    "cat": "General"
+  },
+  {
+    "q": "What is the Varac device used for?",
+    "a": "Tank level",
+    "cat": "General"
+  },
+  {
+    "q": "What is the dipstick used for?",
+    "a": "Refueller level",
+    "cat": "General"
+  },
+  {
+    "q": "What should you ensure before approaching the ramp?",
+    "a": "The dump tank is empty",
+    "cat": "General"
+  },
+  {
+    "q": "How often should the override seal be checked?",
+    "a": "Per shift",
+    "cat": "General"
+  },
+  {
+    "q": "How often should the refueller be checked?",
+    "a": "Daily",
+    "cat": "General"
+  }
+]

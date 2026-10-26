@@ -1,0 +1,6 @@
+{
+  "name": "AFO Aviation Exam Simulator",
+  "description": "Interactive Aviation Fuel Operations (AFO) certification exam prep with randomized questions, instant Arabic feedback, and mistake review.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
