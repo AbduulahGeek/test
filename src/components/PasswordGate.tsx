@@ -124,11 +124,6 @@ export const PasswordGate: React.FC<PasswordGateProps> = ({ onAuthenticate }) =>
               <ArrowLeft className="w-4 h-4" />
             </button>
           </form>
-
-          {/* Bottom security notice */}
-          <div className="pt-2 text-center text-[11px] text-slate-500 border-t border-slate-800/80">
-            منظومة مراجعة وتدريب عمليات وقود الطائرات (AFO)
-          </div>
         </div>
       </div>
     </div>

@@ -119,11 +119,6 @@ export const ContactSection: React.FC<ContactSectionProps> = ({ onShowToast }) =
         <h2 className="text-base sm:text-lg font-bold text-white leading-snug">
           عندك سؤال جديد أو ملاحظة على بنك الأسئلة؟
         </h2>
-
-        <p className="text-xs sm:text-sm text-slate-300 leading-relaxed">
-          إذا عندك سؤال تدريبي إضافي، أو لاحظت سؤالًا يحتاج إلى تصحيح أو تحديث، تواصل معنا عبر واتساب.
-          نرحب بمساهماتكم لتطوير بنك الأسئلة وتحسين تجربة المراجعة للجميع.
-        </p>
       </div>
 
       {/* Contact Info Card */}

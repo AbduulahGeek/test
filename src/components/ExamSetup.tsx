@@ -1,7 +1,7 @@
 import React from 'react';
 import { AFOCategory, AFO_CATEGORIES, AFO_QUESTIONS } from '../data/afoQuestions';
 import { ExamConfig, QuestionCountOption, ExamMode } from '../types/exam';
-import { ShieldCheck, Play, Sparkles, AlertCircle, Trash2, Smartphone } from 'lucide-react';
+import { ShieldCheck, Play, Sparkles, AlertCircle, Trash2 } from 'lucide-react';
 import { ContactSection } from './ContactSection';
 
 interface ExamSetupProps {
@@ -50,18 +50,9 @@ export const ExamSetup: React.FC<ExamSetupProps> = ({
         <div className="absolute top-0 right-0 w-64 h-64 bg-teal-500/5 rounded-full blur-3xl pointer-events-none" />
         
         <div className="relative z-10 space-y-3">
-          <div className="flex items-center justify-between">
-            <div className="inline-flex items-center gap-2 text-xs font-semibold text-teal-400">
-              <ShieldCheck className="w-4 h-4" />
-              <span>Aviation Fuel Operations Certification</span>
-            </div>
-            <button
-              onClick={onOpenGuide}
-              className="text-xs text-slate-400 hover:text-teal-300 flex items-center gap-1 transition-colors"
-            >
-              <Smartphone className="w-3.5 h-3.5" />
-              <span>iPhone Setup</span>
-            </button>
+          <div className="inline-flex items-center gap-2 text-xs font-semibold text-teal-400">
+            <ShieldCheck className="w-4 h-4" />
+            <span>Aviation Fuel Operations Certification</span>
           </div>
 
           <h1 className="text-xl sm:text-2xl font-bold tracking-tight text-white text-balance">
